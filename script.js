@@ -8,7 +8,7 @@ function aikaLaskuri() {
 
     const kaikkiSekunnit = (jouluaatto - nytHetki) / 1000;
     const paivatL = Math.floor(kaikkiSekunnit / 3600 / 24);
-    const tunnitL = Math.floor(kaikkiSekunnit / 3600) % 24 - 1;
+    const tunnitL = Math.floor(kaikkiSekunnit / 3600) % 24;
     const minuutitL = Math.floor(kaikkiSekunnit / 60) % 60;
     const sekunnitL= Math.floor(kaikkiSekunnit) % 60;
 
